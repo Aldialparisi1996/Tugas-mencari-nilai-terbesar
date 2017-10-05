@@ -1,0 +1,32 @@
+Nama		: Aldi Alparisi
+Fakultas	: FTI
+Prodi		: Sistem Informasi
+
+
+
+
+
+
+
+uses crt;
+var
+a,b,c:integer;
+
+begin
+
+writeln('program mencari nilai terbesar');
+write('masukan nilai a:');readln(a);
+write('masukan nilai b:');readln(b);
+write('masukan nilai c:');readln(c);
+
+if (a>b) and (a>c) then
+writeln('nilai terbesarnya adalah a')
+else
+if (b>a) and (b>c) then
+writeln('niali terbesarnya adalah b')
+else
+if (c>a) and (c>b) then
+writeln('nilai terbesarnya adalah c');
+
+readkey;
+end.
